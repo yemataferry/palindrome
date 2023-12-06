@@ -1,5 +1,5 @@
 function palindrome (str) {
-  let j = str.length - 1
+  const j = str.length - 1
   for (let i = 0; i < j / 2; i++) {
     if (str[i] === str[j]) {
       return true
@@ -10,8 +10,8 @@ function palindrome (str) {
 // console.log(palindrome("baab"));
 
 function checkPalindrome () {
-  const word = document.getElementById('question').value;
-  const palindrom = palindrome(word);
+  const word = document.getElementById('question').value
+  const palindrom = palindrome(word)
   const answer = document.getElementById('result')
 
   if (palindrom) {
