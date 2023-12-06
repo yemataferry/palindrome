@@ -7,7 +7,6 @@ function palindrome (str) {
     return false
   }
 }
-// console.log(palindrome("baab"));
 
 function checkPalindrome () {
   const word = document.getElementById('question').value
