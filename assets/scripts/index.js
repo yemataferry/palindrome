@@ -1,10 +1,10 @@
 function palindrome (str) {
-//   const j = str.length-1 
-  for (let i = 0; i <= str.length-1 / 2; i++) {
-    if (str[i] !== str[str.length-1]) {
+//   const j = str.length-1
+  for (let i = 0; i <= str.length - 1 / 2; i++) {
+    if (str[i] !== str[str.length - 1]) {
       return false
     }
-      return true
+    return true
   }
 }
 
@@ -21,3 +21,4 @@ function checkPalindrome () {
     answer.innerHTML = 'The word entered is not a Palindrome'
   }
 }
+checkPalindrome()
