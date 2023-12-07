@@ -1,5 +1,5 @@
 function palindrome (str) {
-  let j = str.length-1
+  let j = str.length - 1
   for (let i = 0; i <= j / 2; i++) {
     if (str[i] !== str[j]) {
       return false
@@ -9,7 +9,7 @@ function palindrome (str) {
   return true
 }
 
-console.log(palindrome('beeba'))
+console.log(palindrome('beeb'))
 
 function checkPalindrome () {
   const word = document.getElementById('question').value
@@ -22,6 +22,6 @@ function checkPalindrome () {
     answer.innerHTML = 'The word entered is not a Palindrome'
   }
   if (onclick) {
-    checkPalindrome ()
-  }  
+    checkPalindrome()
+  }
 }
