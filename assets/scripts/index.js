@@ -23,4 +23,6 @@ function checkPalindrome () {
   }
 }
 
-checkPalindrome()
+if (onclick) {
+  checkPalindrome()
+}
