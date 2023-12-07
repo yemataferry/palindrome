@@ -21,7 +21,6 @@ function checkPalindrome () {
   } else {
     answer.innerHTML = 'The word entered is not a Palindrome'
   }
-  if (onclick) {
-    checkPalindrome()
-  }
 }
+
+checkPalindrome()
