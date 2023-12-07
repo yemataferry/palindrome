@@ -15,7 +15,7 @@
     project is mobile responsive first design and @mediaquery fully responsive
 ![mobile responsivenes](./assets/images/mobile%20resp.png)
 ## Live site
-    
+  [Homa-site](https://yemataferry.github.io/Homa-page/)
 ## Author
      **Yemata Ferry**
      - GitHub: [@yemataferry](https://github.com/yemataferry/Homa-page/pull/1)
