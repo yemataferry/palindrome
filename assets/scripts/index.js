@@ -1,15 +1,16 @@
 function palindrome (str) {
-  let j = str.length - 1
-  for (let i = 0; i <= j / 2; i++) {
-    if (str[i] !== str[j]) {
-      return false
+  let array = str.split(' ').join('')
+   let j = array.length - 1
+    for (let i = 0; i <= j / 2; i++) {
+      if (array[i] !== array[j]) {
+        return false
+      }
+      j--
     }
-    j--
+    return true
   }
-  return true
-}
 
-console.log(palindrome('beeb'))
+console.log(palindrome('do gees see god'))
 
 function checkPalindrome () {
   const word = document.getElementById('question').value
